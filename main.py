@@ -9,7 +9,7 @@ app = QApplication([])
 main_windown = QWidget()
 main_windown.setWindowTitle("Calculator APP")
 main_windown.resize(250,300)
-main_windown.center()
+
 
 
 # Widgets/ All objects
@@ -35,13 +35,11 @@ def button_clicked():
 
     if text == "=":
         try:
-            print(text_box.text())
-            res = eval(text_box)
-            text_box.setText(res)
-        except:
-            print(text_box)
-            print(res)
-            print("Error")
+            textBox = text_box.text()
+            res = eval(textBox)
+            text_box.setText(str(res))
+        except Exception as e:
+            text_box.setText("Error : " + str(e))
     elif text == "Clear":
         text_box.clear()
 
