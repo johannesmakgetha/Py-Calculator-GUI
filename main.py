@@ -9,6 +9,7 @@ app = QApplication([])
 main_windown = QWidget()
 main_windown.setWindowTitle("Calculator APP")
 main_windown.resize(250,300)
+main_windown.center()
 
 
 # Widgets/ All objects
@@ -27,12 +28,41 @@ buttons = [
 clear = QPushButton("Clear")
 delete = QPushButton("<")
 
+
+def button_clicked():
+    button = app.sender()
+    text = button.text()
+
+    if text == "=":
+        try:
+            print(text_box.text())
+            res = eval(text_box)
+            text_box.setText(res)
+        except:
+            print(text_box)
+            print(res)
+            print("Error")
+    elif text == "Clear":
+        text_box.clear()
+
+    elif text == "<":
+         text_box.setText(text_box.text()[:-1])
+
+    else:
+
+        text_box_value = text_box.text()
+        text_box.setText(text_box_value + text)
+
+
+
+
+
 col = 0
 row = 0
 
 for text in buttons:
     button = QPushButton(text)
-    #button_d.clicked
+    button.clicked.connect(button_clicked)
     grid.addWidget(button,row,col)
     col += 1
 
@@ -41,6 +71,8 @@ for text in buttons:
         row += 1
 
 
+clear.clicked.connect(button_clicked)
+delete.clicked.connect(button_clicked)
 
 
 
