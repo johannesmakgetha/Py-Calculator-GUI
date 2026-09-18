@@ -1,6 +1,7 @@
 # Desktop Calculator
 
 ![Calculator Screenshot](img/calculator.png)
+
 A simple desktop calculator application built with **Python** and **PyQt5**. The application provides a graphical interface for performing basic arithmetic calculations.
 
 ## Features
