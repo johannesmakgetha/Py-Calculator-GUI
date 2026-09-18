@@ -1,5 +1,6 @@
-# PyQt5 Calculator
+# Desktop Calculator
 
+![Calculator Screenshot](img/calculator.png)
 A simple desktop calculator application built with **Python** and **PyQt5**. The application provides a graphical interface for performing basic arithmetic calculations.
 
 ## Features
@@ -14,6 +15,15 @@ A simple desktop calculator application built with **Python** and **PyQt5**. The
 - **Python 3**
 - **PyQt5**
 
+
+## Requirements
+
+The required Python packages are listed in `requirements.txt`.
+
+Install the dependencies with:
+
+    pip install -r requirements.txt
+
 ##  Installation
 
 ### 1. Clone the repository
@@ -21,9 +31,9 @@ A simple desktop calculator application built with **Python** and **PyQt5**. The
     git clone https://github.com/your-username/your-repository.git
     cd your-repository
 
-### 2. Install dependencies
+### 2. Install the dependencies
 
-    pip install PyQt5
+    pip install -r requirements.txt
 
 ### 3. Run the application
 
@@ -38,6 +48,6 @@ Add a screenshot of the calculator here:
 
 ##  Author
 
-Johannes Malefetsane
+Johannes Malefetsane 
 
 
