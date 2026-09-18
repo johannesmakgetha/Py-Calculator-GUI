@@ -222,4 +222,4 @@ if __name__ in "__main__":
     main_window = CalcApp()
     main_window.setStyleSheet("QWidget { background-color: #000000}")
     main_window.show()
-    app.exec()
+    app.exec_()
