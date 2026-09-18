@@ -39,12 +39,6 @@ Install the dependencies with:
 
     python main.py
 
-## 📸 Screenshot
-
-Add a screenshot of the calculator here:
-
-    ![Calculator Screenshot](screenshots/calculator.png)
-
 
 ##  Author
 
