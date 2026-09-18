@@ -1,25 +1,20 @@
-# 🧮 PyQt5 Calculator
+# PyQt5 Calculator
 
 A simple desktop calculator application built with **Python** and **PyQt5**. The application provides a graphical interface for performing basic arithmetic calculations.
 
-## ✨ Features
+## Features
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
+- Addition, Subtraction, Multiplication, Division
 - User-friendly graphical interface
 - Interactive calculator buttons
-- Clear/reset functionality
-- Keyboard-friendly input
-- Error handling for invalid calculations
+- Clear and Backspace functionality
 
-## 🛠️ Technologies
+## Technologies
 
 - **Python 3**
 - **PyQt5**
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -40,18 +35,9 @@ Add a screenshot of the calculator here:
 
     ![Calculator Screenshot](screenshots/calculator.png)
 
-## 📁 Project Structure
 
-    calculator/
-    ├── main.py
-    ├── README.md
-    └── screenshots/
-        └── calculator.png
+##  Author
 
-## 👤 Author
+Johannes Malefetsane
 
-Your Name
 
-## 📄 License
-
-This project is open-source and available under the MIT License.
